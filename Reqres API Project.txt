@@ -1,0 +1,22 @@
+# Reqres API Project
+
+This repository contains a Postman collection for testing the **Reqres API**.  
+
+## Endpoints Overview
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET    | https://reqres.in/api/users/2 | Retrieve user with ID 2 |
+| GET    | https://reqres.in/api/users?page=2 | Retrieve second page of users |
+| GET    | https://reqres.in/api/users/2 | Retrieve user with ID 2 (duplicate request) |
+| GET    | https://reqres.in/api/users/23 | Attempt to retrieve non-existing user |
+| POST   | https://reqres.in/api/users | Create a new user |
+| PUT    | https://reqres.in/api/users/2 | Update user with ID 2 |
+| DELETE | https://reqres.in/api/users/2 | Delete user with ID 2 |
+
+## How to Run
+
+1. Clone the repo or download the collection JSON file.  
+2. Open **Postman** → click **Import → File → Select JSON**.  
+3. All requests (4 GET, 1 POST, 1 PUT, 1 DELETE) will appear.  
+4. Click **Send** to run any request.  
