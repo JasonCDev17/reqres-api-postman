@@ -96,24 +96,30 @@ Response body does not show updated fields.
 
  Evidence
 
- What I Learned
+Areas of Improvement:
 
-How to connect to a database and run basic SQL queries
+-Automation with Newman/CI Integration → Currently, tests are manual in Postman. Integrating with Newman and CI/CD (e.g., GitHub Actions, Jenkins) would enable automated execution.
 
-Understanding CRUD operations in QA context
+-Comprehensive Validation → Expand test assertions to include schema validation, response headers, and negative test scenarios.
 
-Using SQLite browser to explore and validate data
+-Data-Driven Testing → Implement parameterization (e.g., CSV/JSON test data) for scalability and better coverage.
 
-Logging database-related bugs in Jira
+-Enhanced Reporting → Use HTML/Allure reports for clear visualization of test runs, instead of only screenshots.
 
- Areas for Improvement
+-Environment & Variable Management → Introduce multiple environments (dev, staging, prod) with global variables for better flexibility.
 
-Learn joins and advanced SQL queries
+ What I Have Learned:
 
-Automate database tests using Python/Java scripts
+-API Testing Fundamentals → Gained hands-on experience with CRUD operations (GET, POST, PUT, DELETE) using Postman.
 
-Integrate database verification with API or automation tests
- 
+-Defect Tracking with Jira → Learned how to log, document, and track API-related bugs with evidence.
+
+-Test Documentation → Improved skills in creating test cases and an RTM to ensure endpoint coverage.
+
+-Practical Debugging → Identified discrepancies (e.g., PUT response mismatch), which enhanced problem-solving and attention to detail.
+
+-Collaboration Workflow → Understood how to structure deliverables (collections, RTM, bug reports) for team and stakeholder review.
+
 
 
 
